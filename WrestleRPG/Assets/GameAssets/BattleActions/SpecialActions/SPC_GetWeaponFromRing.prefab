@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3251936652225586519
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1481932706226645398}
+  - component: {fileID: -4654383820125469547}
+  m_Layer: 0
+  m_Name: SPC_GetWeaponFromRing
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1481932706226645398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3251936652225586519}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.4378836, y: -1.4723921, z: -1.6638227}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-4654383820125469547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3251936652225586519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7974984b4e3f2ce4bbd3faea0fd1519b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ActName: Get Weapon from Ring
+  ActDesc: A simple strike to the chest
+  ActPow: 10
+  ActCost: 0
+  MustBeDown: 0
+  CostsHP: 0
+  TargetSelf: 1
+  MoveType: 2
+  Illegal: 0
+  Finisher: 0
+  ActionStarted: 0
+  animSpeed: 10
+  Weapons:
+  - {fileID: -2298020519423515676, guid: 8e58b5650c4819c48a6f4b19bc2222ad, type: 3}

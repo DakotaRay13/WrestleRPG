@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 334ac98d98198dc41b46cc373b3f9480
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Wrestler: {instanceID: 0}
+  - Stats: {instanceID: 0}
+  - BSM: {instanceID: 0}
+  - FloatingText: {fileID: 7955161705101393933, guid: b6ab55e857276b945ba696db936c5dcb,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
